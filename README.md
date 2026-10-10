@@ -31,7 +31,7 @@ cd quantum-chemistry-from-scratch
 
 ### 2. Prepare a Python environment
 
-The numerical examples use NumPy and SciPy, and the notebooks require Jupyter. PySCF is used by some reference code; `Project_03_HF.py` uses `forte2` for molecular integrals. Install the dependencies required by the specific file you want to run.
+The numerical examples use NumPy and SciPy, and the notebooks require Jupyter. **PySCF is used by some reference code** but not in my implementation; `Project_03_HF.py` and afterwards uses `forte2` for molecular integrals. Install the dependencies required by the specific file you want to run.
 
 For the numerical libraries, notebooks, and PySCF-based examples:
 
